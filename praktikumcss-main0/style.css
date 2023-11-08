@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'acme';
+    src: url(font/acme.ttf);
+}
+
+@font-face {
+    font-family: 'JFS';
+    src: url(font/JFS.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: lightgray;
+    color: black;
+    font-family: 'JFS';
+    font-size: x-large;
+    font-weight: 600;
+}
+
+header {
+    background-color: gray;
+    padding: 1px 0;
+    text-align: center;
+    color: white;
+    font-family: 'acme';
+}
+
+blockquote {
+    font-style: italic;
+    font-weight: normal;
+}
+
+#soekarno {
+    font-style: normal;
+    
+}
+
+
+
+.gambar {
+    text-align: center;
+}
+
+.ul {
+    display: flex;
+    justify-content: center;
+}
+
+.ul li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.ul li a {
+    text-decoration: none;
+    color: chartreuse;
+    transition: 0.2s;
+}
+
+.ul li a:hover {
+    color: white;
+}
+
+#link {
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+}
+
+#link li {
+    margin-right: 30px;
+}
+
+#link li a {
+    text-decoration: none;
+    color: crimson;
+}
+
+#link li a:hover {
+    color: rgb(207, 80, 6);
+}
+
+.sp1 {
+    color: blue; 
+    font-size: 50px
+}
